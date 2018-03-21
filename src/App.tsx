@@ -1,13 +1,8 @@
 import * as React from 'react';
 import SquareComponent from './components/SquareComponents';
-// import SquareInterface from './components/SquareInterface';
 import './App.css';
 
 class App extends React.Component {
-  // createSquare = () => {
-
-  // }
-
   render() {
     return (
       <div className="App">

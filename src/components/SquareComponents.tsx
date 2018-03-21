@@ -24,7 +24,7 @@ class SqaureComponent extends React.Component<ISquareProps, {}> {
     console.log(this.props);
     return (
       <div>
-        <h3>new component: {this.props.color} square with area of {this.getArea(this.props.width)}</h3>
+        <h3>{`new component: ${this.props.color} square with area of ${this.getArea(this.props.width)}.`}</h3>
         {this.props.squares && this.props.squares.map((s, index) => (
           <h3 key={index}>{`props square: ${s.color} square with area of ${this.getArea(s.width)}.`}</h3>
         ))}

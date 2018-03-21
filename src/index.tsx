@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 import { square } from './reducers/index';
-import registerServiceWorker from './registerServiceWorker';
 
 // enable chrome redux dev tool
 const windowIfDefined = typeof window === 'undefined' ? null : window as any;
@@ -26,4 +25,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-// registerServiceWorker();

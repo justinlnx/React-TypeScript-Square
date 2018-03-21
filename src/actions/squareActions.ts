@@ -19,7 +19,6 @@ const squares = [
 
 export function getSquares () : (dispatch: any) => Promise<IGetAllSquaresSucceeded> {
   return function(dispatch) {
-      // return fetch(`${api}/squares`, { headers })
       return dispatch(receiveSquares(squares));
   };
 }
