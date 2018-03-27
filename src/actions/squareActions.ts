@@ -1,6 +1,5 @@
-import { IGetAllSquaresSucceeded } from './index';
+import SquareActionTypes, { IGetAllSquaresSucceeded } from './index';
 import SquareInterface from '../components/SquareInterface';
-import SquareActionTypes from './constants';
 
 const squares = [
   {

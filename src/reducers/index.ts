@@ -1,6 +1,6 @@
 import SquareInterface from '../components/SquareInterface';
 import ActionTypes from '../actions/actionTypes';
-import SquareActionTypes from '../actions/constants';
+import SquareActionTypes from '../actions';
 
 export function square(state: any = {}, action: ActionTypes) {
   switch(action.type) {
